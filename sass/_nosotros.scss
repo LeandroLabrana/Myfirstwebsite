@@ -1,0 +1,35 @@
+/*NOSOTROS*/
+.img-responsive{
+	 height: 300px;
+	 width: 315px;
+    }
+
+.fondo2{
+	 background-color: #202C39;
+    }   
+
+.titulo2 { 
+	      h1{
+	        color: white;
+		    font-family: 'Oswald', sans-serif;
+		    text-transform: uppercase;
+		    font-weight: 250px;
+		    font-size: 40px;
+		    text-shadow: 4px -2px 1px black;
+		    }
+
+		    p{
+		      @extend h1;
+		      text-transform: capitalize;
+		      font-size:19px; 
+		    }
+
+
+		    h3{
+		    	color: darkorange;
+			    font-family: 'Oswald', sans-serif;
+			    text-transform: uppercase;
+			    font-weight: 400px;
+			    text-shadow: 3px 3px 1px black;
+		    }
+          }

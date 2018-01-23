@@ -1,0 +1,149 @@
+/*NAV*/
+.boton1 {
+  background-color: darkorange; }
+
+nav {
+  background-color: black; }
+  nav .glyphicon-facetime-video {
+    color: darkorange;
+    font-size: 50px; }
+  nav .glyphicon {
+    position: relative;
+    top: -14px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  nav .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: black;
+    border-radius: 1px; }
+  nav .navbar-collapse a {
+    font-size: 20px;
+    color: darkorange;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase; }
+    nav .navbar-collapse a:hover {
+      color: black; }
+  nav .dropdown-menu a {
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize; }
+  @media screen and (max-width: 768px) {
+    nav .dropdown-menu a {
+      color: white; } }
+
+/*HEADER*/
+header .titulo h1, header .titulo .titulo2 p, .titulo2 header .titulo p, header .titulo .titulo3 h3, .titulo3 header .titulo h3 {
+  color: darkorange;
+  justify-content: center;
+  font-size: 100px;
+  padding: 200px 0;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400px;
+  text-shadow: 10px -2px 2px black; }
+header h2 {
+  justify-content: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 250px;
+  padding-top: 0px;
+  font-size: 45px;
+  margin-top: -70px;
+  text-shadow: 4px -2px 1px black; }
+
+.fondo {
+  background: url(../sectionC.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center top;
+  height: 960px; }
+
+/*NOSOTROS*/
+.img-responsive {
+  height: 300px;
+  width: 315px; }
+
+.fondo2 {
+  background-color: #202C39; }
+
+.titulo2 h1, .titulo2 p, .titulo2 .titulo3 h3, .titulo3 .titulo2 h3 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 250px;
+  font-size: 40px;
+  text-shadow: 4px -2px 1px black; }
+.titulo2 p {
+  text-transform: capitalize;
+  font-size: 19px; }
+.titulo2 h3 {
+  color: darkorange;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400px;
+  text-shadow: 3px 3px 1px black; }
+
+/*SERVICIOS*/
+.fondo3 {
+  background-color: #F7F6FC;
+  height: 500px; }
+
+.titulo3 h1, .titulo3 .titulo2 p, .titulo2 .titulo3 p, .titulo3 h3 {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 250px;
+  font-size: 40px;
+  text-shadow: 4px -2px 1px white; }
+.titulo3 h3 {
+  color: darkorange;
+  font-size: 27px;
+  font-weight: 400px;
+  text-shadow: 3px -1px 0px black; }
+
+/*FORM*/
+.fondo4 {
+  background-color: #202C39;
+  height: 575px; }
+
+h3 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+  font-size: 27px;
+  font-weight: 400px;
+  text-shadow: 3px -1px 0px black; }
+
+form label {
+  font-family: 'Oswald', sans-serif;
+  color: darkorange; }
+
+.checkbox {
+  font-family: 'Oswald', sans-serif;
+  color: darkorange; }
+
+/*MENU DE REDES SOCIALES*/
+.social{
+  list-style: none;
+  margin-top: 5px;
+}
+.social span {
+  font-size: 35px; }
+
+.facebook {
+  color: #3b5998; }
+
+.twitter {
+  color: #55acee; }
+
+.instagram {
+  color: #e95950; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+/*NAV*/
+.boton1{
+	    background-color:darkorange;
+	  }
+
+nav{
+	  background-color: black;
+
+       .glyphicon-facetime-video{
+	                       color: darkorange;
+	                       font-size: 50px;
+	                   }
+
+	    .glyphicon {
+					    position: relative;
+					    top: -14px;
+					    display: inline-block;
+					    font-family: 'Glyphicons Halflings';
+					    font-style: normal;
+					    font-weight: 400;
+					    line-height: 1;
+					    -webkit-font-smoothing: antialiased;
+					    -moz-osx-font-smoothing: grayscale;
+                    }
+
+        .navbar-toggle .icon-bar {
+								  display: block;
+								  width: 22px;
+								  height: 2px;
+								  background: black;
+								  border-radius: 1px;
+								}
+
+	    .navbar-collapse a{
+	    	            font-size: 20px;
+                        color: darkorange;
+					    font-family: 'Oswald', sans-serif;
+					    text-transform: uppercase;
+					    &:hover{
+         	                   color:black;
+					        }
+					}
+
+		.dropdown-menu a{
+			           color: black;
+			           font-size: 15px;
+                       text-transform: capitalize; 
+                      }
+
+                    @media screen and (max-width:768px){
+                       	.dropdown-menu a{
+                       		color: white;
+                       }
+                   }
+
+}
+
